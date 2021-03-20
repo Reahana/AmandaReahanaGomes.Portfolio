@@ -549,7 +549,6 @@ footer span a:hover{
     text-decoration: underline;
 }
 
-
 /* responsive media query start */
 @media (max-width: 1300px) {
     .home .max-width{
