@@ -403,20 +403,28 @@ section .title::after{
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+/* .teams .carousel .card:hover .box{
     transform: scale(1.05);
-}
+} */
 .teams .carousel .card .text{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: crimson;
+    
+}
+.teams .carousel .card  svg{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color:lightcoral;
 }
 .teams .carousel .card img{
     height: 250px;
-    width: 300px;
-    object-fit: cover;
+    width: 320px;
+    /* object-fit: cover; */
     /* border-radius: 50%; */
-    border: 5px solid crimson;
+    border: 5px solid lightcoral;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
