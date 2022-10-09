@@ -269,7 +269,7 @@ section .title::after{
     content: "what i provide";
 }
 .services .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(25% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -389,6 +389,7 @@ section .title::after{
     background: #222;
     border-radius: 6px; 
     padding: 25px 35px;
+    padding-top: 0;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -422,11 +423,12 @@ section .title::after{
 }
 .teams .carousel .card img{
     height: 250px;
-    width: 320px;
+    width: 365px;
     /* object-fit: cover; */
     /* border-radius: 50%; */
-    border: 5px solid crimson;
+    /* border: 5px solid crimson; */
     transition: all 0.3s ease;
+    padding-top: 0;
 }
 .teams .carousel .card  .type{
 color:rgb(231, 178, 108); font-size: 18px;
