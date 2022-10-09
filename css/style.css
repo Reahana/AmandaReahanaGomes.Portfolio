@@ -413,18 +413,19 @@ section .title::after{
     color: crimson;
     
 }
-.teams .carousel .card  svg{
-    font-size: 40px;
-    font-weight: 500;
+.teams .carousel .card  .stack{
+    /* font-size: 40px;*/
+    font-weight: 300; 
     margin: 10px 0 7px 0;
-    color:lightcoral;
+    color:rgb(231, 178, 108);
+    
 }
 .teams .carousel .card img{
     height: 250px;
     width: 320px;
     /* object-fit: cover; */
     /* border-radius: 50%; */
-    border: 5px solid lightcoral;
+    border: 5px solid crimson;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
