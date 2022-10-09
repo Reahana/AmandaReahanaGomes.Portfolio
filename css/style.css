@@ -431,6 +431,7 @@ section .title::after{
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
+
  .teams .carousel .card .box a {
     display: inline-block;
     /* background: crimson; */
