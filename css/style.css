@@ -428,25 +428,30 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
+.teams .carousel .card  .type{
+color:rgb(231, 178, 108); font-size: 18px;
+}
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
 
- .teams .carousel .card .box a {
+ .teams .carousel .card  a {
     display: inline-block;
     /* background: crimson; */
     color: crimson;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     padding: 10px 30px;
     margin-top: 20px;
-    border-radius: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
    
 }
 
-.teams .carousel .card .box a:hover{
+.teams .carousel .card  a:hover{
     background: crimson;
     color: #fff;
 }
