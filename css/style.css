@@ -441,18 +441,14 @@ color:rgb(231, 178, 108); font-size: 18px;
 }
 
 
-.contact .contact-content .left .icons{
-    margin: 10px 0px;
-}
-.contact .contact-content .right .icons{
-    margin: 10px 0px;
-}
-.contact .contact-content .left-down .icons{
-    margin: 10px 0px;
-}
+.contact .contact-content .left .icons,
+.contact .contact-content .right .icons,
+.contact .contact-content .left-down .icons,
 .contact .contact-content .right-down .icons{
+
     margin: 10px 0px;
 }
+
 .contact .contact-content .row{
     display: flex;
     height: 65px;
@@ -469,15 +465,7 @@ color:rgb(231, 178, 108); font-size: 18px;
 .contact .contact-content .row a svg:hover{
     color: black;
 }
-.contact .contact-content .social {
-    display: flex;
-    margin-right: 100px;
-    /* margin-left: 100px; */
-    /* padding-right: 80px;
-    padding-left: 100px; */
-    width: calc(100%);
-    align-items: center;
-}
+
 .contact .contact-content .social svg{
     font-size: 35px;
     margin-top: 30px ;
@@ -633,17 +621,13 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
-    .about .about-content .right .text,
-    .skills .skills-content .left .text{
+    .about .about-content .right .text
+   {
         font-size: 19px;
     }
-    .contact .right form .fields{
-        flex-direction: column;
-    }
-    .contact .right form .name,
-    .contact .right form .email{
-        margin: 0;
-    }
+
+
+
     .scroll-up-btn{
         right: 15px;
         bottom: 15px;
