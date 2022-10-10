@@ -305,6 +305,32 @@ section .title::after{
 .skills .title::after{
     content: "what i know";
 }
+.skills .skills-content .card{
+    width: calc(33% - 20px);
+    /* background: whitesmoke; */
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid  crimson;
+    box-shadow: 5px whitesmoke;
+    margin-bottom: 20px;
+}
+.skills .skills-content .card .text{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:crimson;
+}
+.skills .skills-content .card p{
+    font-size: 18px;
+  
+   
+}
+.skills .skills-content .card svg{
+    font-size: 28px;
+}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
