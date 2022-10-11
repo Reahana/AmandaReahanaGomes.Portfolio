@@ -591,6 +591,7 @@ footer span a:hover{
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 5px;
+
        
     }
 }
@@ -625,7 +626,10 @@ footer span a:hover{
    {
         font-size: 19px;
     }
-
+.contact .contact-content .social svg{
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 
     .scroll-up-btn{
