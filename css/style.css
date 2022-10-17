@@ -166,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("../images/banner.jpg") no-repeat center;
+    background: url("../images/bannar-3.gif") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -216,12 +216,24 @@ section .title::after{
 }
 .about .about-content .left{
     width: 45%;
+    padding-left: 50px;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
+    height: 300px;
+    width: 240px;
+    /* object-fit: cover; */
     border-radius: 6px;
+    cursor: pointer;
+    border: 10px groove  ;
+   
+
+}
+
+.about .about-content .left img:hover{
+   
+    border: 5px solid crimson;
+    
+    transform: scale(1);
 }
 .about .about-content .right{
     width: 55%;
@@ -317,6 +329,7 @@ section .title::after{
     box-shadow: 5px whitesmoke;
     margin-bottom: 20px;
 }
+
 .skills .skills-content .card .text{
     font-size: 22px;
     font-weight: 600;
