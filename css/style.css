@@ -223,15 +223,15 @@ section .title::after{
     width: 280px;
     /* object-fit: cover; */
     border-radius: 6px;
-    cursor: pointer;
-    border: 10px groove  ;
+    /* cursor: pointer; */
+    border: 2px solid black  ;
    
 
 }
 
 .about .about-content .left img:hover{
    
-    border: 5px solid crimson;
+    border: 2px solid crimson;
     
     transform: scale(1);
 }
